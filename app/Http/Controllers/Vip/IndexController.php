@@ -46,7 +46,7 @@ class IndexController extends Controller
         $list=UserModel::all()->toArray();
         $data=[
             'list'=>$list,
-            'page'=>333
+            'page'=>555
         ];
         return view('user.userindex',$data);
     }
