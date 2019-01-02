@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class UserModel extends Model
 {
     //
-    public $table='shop_detail';
+    public $table='shop_cart';
+    public $timestamps=false;
 }
